@@ -1,5 +1,5 @@
 import mysql.connector as MC
-Connection=MC.connect(host=“localhost”,user="root",passwd="united",database="library")
+Connection=MC.connect(host=“localhost”,user="root",passwd="*****",database="library")
 Cursor=Connection.cursor()
 Continue="yes"
 while Continue=="yes":
